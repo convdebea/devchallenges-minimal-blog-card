@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+
+
+img {
+    max-width: 100%;
+    border-radius: 1rem;
+
+}
+body {
+    background-color: #FAFAF9;
+    padding: 5rem 1rem;
+}
+
+@media (min-width: 640px) {
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        padding: 0;
+    }
+}
+
+.container {
+    max-width: 400px;
+    margin-inline: auto;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 10px rgb(0,0,0,0.15);
+}
+
+.container button {
+    background-color:#883AE125;
+    color: #883AE1;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.container button:hover {
+    background-color: #883AE175;
+}
+
+.container h2 {
+    font-size: 18px;
+    color: #20293A;
+    margin: 16px 6px ;
+}
+
+.container p {
+        font-family: "Sora", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        color: #6C727F;
+        line-height: 1.8;
+      }
+    
+
+.container p.name {
+    font-size: 12px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #E5EAF0;
+}
